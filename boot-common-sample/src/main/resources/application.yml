@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: boot-common
+  devtools:
+    restart:
+      enabled: true
+  mvc:
+    message-codes-resolver-format: prefix_error_code
+
+logging:
+  level:
+    root: info
+    com.github.comma: debug
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
