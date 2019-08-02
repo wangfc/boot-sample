@@ -12,6 +12,7 @@
     <modules>
         <module>boot-common-sample</module>
         <module>boot-redis-sample</module>
+        <module>comma-spring-boot-starter</module>
     </modules>
 
     <name>boot-sample</name>
