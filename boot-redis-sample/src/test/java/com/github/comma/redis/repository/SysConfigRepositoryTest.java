@@ -1,6 +1,5 @@
 package com.github.comma.redis.repository;
 
-import com.github.comma.redis.RedisApplication;
 import com.github.comma.redis.entity.SysConfig;
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@SpringBootTest(classes = RedisApplication.class)
+@SpringBootTest
 @RunWith(SpringJUnit4ClassRunner.class)
 public class SysConfigRepositoryTest {
 
